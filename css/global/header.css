@@ -8,11 +8,8 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-
-    box-sizing: border-box;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header-menu {
