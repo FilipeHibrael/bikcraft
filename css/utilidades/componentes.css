@@ -4,7 +4,7 @@
     padding-left: 20px;
     padding-right: 20px;
     margin-left: auto;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 .botao {
@@ -42,6 +42,26 @@
 
 .botao.secundario:hover {
     background: var(--cor-9);
+}
+
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.botao.seta::after {
+    display: inline-block;
+    content: '';
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: transform 0.2s;
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px);
+
 }
 
 .link {
