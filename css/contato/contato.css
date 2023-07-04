@@ -14,12 +14,12 @@
 }
 
 .contato-dados {
-    background-color: var(--cor-12);
+    background: var(--cor-12) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px left 20px;
     border-radius: 4px 0 0 4px;
 }
 
 .contato-formulario {
-    background-color: var(--cor-0);
+    background: var(--cor-0) url(../../img/dec/bottom-right.svg) no-repeat bottom 20px right 20px;
     border-radius: 0 4px 4px 0;
 }
 
@@ -78,6 +78,7 @@
     }
 
     .contato-dados {
+        background: var(--cor-12);
         border-radius: 4px 4px 0 0;
     }
 
